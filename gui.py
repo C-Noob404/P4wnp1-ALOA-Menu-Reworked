@@ -800,7 +800,7 @@ def restart():
     "",
     ""
     )
-    cmd="python3.7 /root/BeBoXGui/runmenu.py &"
+    cmd="python3 /root/BeBoXGui/runmenu.py &"
     exe = execcmd(cmd)
     if(exe==-1):
                 displayError()
