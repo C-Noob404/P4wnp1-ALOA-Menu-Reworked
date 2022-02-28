@@ -4,6 +4,7 @@ apt update --fix-missing
 apt install python3-dev python3-pip libfreetype6-dev libjpeg-dev dsniff mitmproxy -y
 pip install luma.oled
 pip install luma.core
+pip install smbus
 echo "Create directories"
 mkdir -p /root/BeBoXGui/{images,nmap}
 echo "Copying files"
